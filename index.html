@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./assets/icons/icon.ico">
+    <title>Jokenpô</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Jokenpô</h1>
+        <div class="buttons">
+            <button id="stone-e" onclick="playHuman('stone-e')">&#x1F44A;</button>
+            <button id="paper-e" onclick="playHuman('paper-e')">&#x1F590;</button>
+            <button id="scissors-e" onclick="playHuman('scissors-e')">&#x270C;</button>
+        </div>
+
+        <p class="result"></p>
+        <p>Empates: <span class="emp-score">0</span></p>
+        <p>Sua Pontuação: <span class="your-score">0</span></p>
+        <p>Pontuação da Alexa: <span class="cpu-score">0</span></p>
+    </div>
+    
+</body>
+<script src="./config.js"></script>
+</html>
